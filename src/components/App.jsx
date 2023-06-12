@@ -31,9 +31,6 @@ const [neutral, setNeutral]= useState(0);
     return Math.round((100 * good) / (good + neutral + bad));
   }
 
-  const options = ['good', 'neutral', 'bad'];
-
-
     return (
       <div className={css.wrapper}>
         <Section title="Please leave feedback">
